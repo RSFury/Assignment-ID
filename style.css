@@ -1,6 +1,82 @@
-body{
-    overflow-x: hidden;
+
+html{
+    scroll-behavior: smooth;
 }
-.bar{
-    font-size: 20px;
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial;
+}
+ul{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+nav{
+    width:100%;
+    background: rgb(21, 21, 21);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+li{
+    float: right;
+}
+a{
+    padding: 20px;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.Phasmo{
+    float: left;
+
+}
+#home{
+    height:700px;
+    background:rgb(49, 48, 48);
+    display: inline-block;
+    width:100%;
+}
+#Equipments{
+    height:700px;
+    background:rgb(49, 48, 48);
+    display: inline-block;
+    width:100%;
+}
+#Map{
+    height:700px;
+    background:rgb(49, 48, 48);
+    display: inline-block;
+    width:100%;
+}
+#Ghost{
+    height:700px;
+    background:rgb(49, 48, 48);
+    display: inline-block;
+    width:100%;
+}
+#Object{
+    height:700px;
+    background:rgb(49, 48, 48);
+    display: inline-block;
+    width:100%;
+}
+#Download{
+    height:700px;
+    background:rgb(49, 48, 48);
+    display: inline-block;
+    width:100%;
+}
+h1{
+    margin:100px;
+    text-align: center;
+    padding:0;
+}
+.Down{
+    background:rgb(49, 48, 48);
 }
