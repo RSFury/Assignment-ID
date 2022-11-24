@@ -44,7 +44,7 @@ a{
     display: inline-block;
     width:100%;
     color:white;
-    background-image: url('PhasmoMain.jpg');
+    background-image: url('image/PhasmoMain.jpg');
     background-repeat: no-repeat;
     background-size: cover; 
 }
@@ -54,6 +54,7 @@ a{
     width:100%;
     color:white;
     text-align: center;
+    font-size: 1vw;
     
 }
 #Map{
@@ -148,7 +149,7 @@ padding: 0px 10px;
 }
 .home-text{
     text-align: center;
-    font-size: 30px;
+    font-size: 1vw;
     color: white;
     height: 700px;
     
@@ -188,7 +189,7 @@ padding: 0px 10px;
     height: 700px;
     color: white;
     text-align: center;
-    font-size:30px;
+    font-size:1vw;
     width: 60vw;
     margin: auto;
 }
