@@ -39,7 +39,7 @@ a{
 #home{
     height:830px;
     display: inline-block;
-    width:100%;
+    width:100vw;
     color:white;
     background-image: url('Others/PhasmoMain.jpg');
     background-repeat: no-repeat;
@@ -189,7 +189,7 @@ color: rgb(45, 109, 45);
 .sidenav_ghost a {
 font-size: 1vw;
 width:11vw;
-color: #7235d4;
+color: #be6fe2;
 display: inline-block;
 text-align: center;
 }
