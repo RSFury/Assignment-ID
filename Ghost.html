@@ -154,6 +154,7 @@
                     <br>
                     <br>
                     <br>
+                    <br>
                 </div>
                 
             </div>
@@ -165,7 +166,7 @@
                 Ghosts
             </h1>
             <h3>
-                There are many different type of Ghost in the game. Each have their own conditions and<br>
+                There are many different type of Ghost in the game. Each have their own conditions and<br><br>
                 <span style="color:rgb(255, 0, 43);font-weight:bold">UNIQUE</span> hidden ability and will be listed down below.
             </h3>
             <div class = "Ghosts">
@@ -179,137 +180,384 @@
                     <button class="button" onclick="filterSelection('Fingerprints')">Fingerprints</button>
                     <button class="button" onclick="filterSelection('Freezing')">Freezing</button>
                 </div>
+                <h2>
+                    Legend:<br><br> 
+                    <span style = "color:rgb(156, 20, 156);">Evidence</span> = The evidence to identify the Ghost<br><br>
+                    <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> = Sanity level for Hunt to occur.(Individual)<br><br>
+                    <span style = "color: rgb(65, 194, 65);">Give Away</span> = Things ONLY that Ghost do.<br><br>
+                    <span style = "color: rgb(214, 141, 6);">Excluder</span> = Things ONLY that Ghost do not do.<br><br>
+                    <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> = Things the Ghost can do while others could not. (mainly interactions)<br><br>
+                    <span style = "color: rgb(38, 113, 211);">Notes</span> = Obvious things that ghost do MORE/LESS compared to other ghost.
+                </h2>
                 <div id="Spirit" class = "filterDiv EMF5 SpiritBox Writing">
-                    <br>
-                    <br>
+                    <br><br>
+                    <br><br>
                     <h2>
                         Spirit
                     </h2>
                     <p>
-                        Evidence : EMF 5, Spirit Box , Ghost Writing<br>
-                        Hunt Threshold : 50 % sanity        
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : EMF 5, Spirit Box , Ghost Writing<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 50%<br><br>
+                        <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> : Smudging the Room prevents hunts for 3 Minutes<br><br>
+                         (rather than the normal 1.5 Minutes)       
                     </p>
                     
                 </div>
                 <div id="Wraith" class = "filterDiv EMF5 SpiritBox DOTS">
-                    <br>
-                    <br>
+                    <br><br>
+                    <br><br>
                     <h2>
                         Wraith
                     </h2>
                     <p>
-                        
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : EMF 5, Spirit Box, DOTS<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 50%<br><br>
+                        <span style = "color: rgb(65, 194, 65);">Give Away</span> : No Salt Footprints<br><br>
+                        <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> : May Teleport to Player (Giving of EMF Readings)<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : Random EMF response at player outside of Ghost Room or Roaming Distance
                     </p>
                 </div>
                 <div id="Phantom" class = "filterDiv SpiritBox Fingerprints Writing">
-                    <br>
-                    <br>
-                    Phantom
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        Phantom
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : Spirit Box, Fingerprints, DOTS<br><br>
+                        Hunt Threshold: 50%<br><br>
+                        <span style = "color: rgb(65, 194, 65);">Give Away</span> : Disappears after taking Picture & Ghost Picture has NO static in it<br><br>
+                        <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> : Reduces Sanity when you look at it<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : Hunt: The Ghost Model with flash in only every 1-2 seconds,<br><br>
+                         rather than every 0.3s-1s (meaning slower flashes)
+                    </p>
                 </div>
                 <div id="Poltergeist" class = "filterDiv SpiritBox Fingerprints Writing">
-                    <br>
-                    <br>
-                    Poltergeist
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        Poltergeist
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : Spirit Box, Fingerprints, Writing<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 50% <br><br>
+                        <span style = "color: rgb(65, 194, 65);">Give Away</span> : Multithrow & Far-Throw<br><br>
+                        <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> : Can throw more than one object occasionally<br><br>
+                         & Can throw objects further than other ghosts.<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : Touches everything constantly somehow. <br><br>
+                        During Hunts it throws most shit it comes in contact with.<br><br>
+                        (consider kiting through Writing Book)
+                    </p>
                 </div>
                 <div id="Banshee" class = "filterDiv Orbs Fingerprints DOTS">
-                    <br>
-                    <br>
-                    Banshee
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        Banshee
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : Orbs, Fingerprints, DOTS<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 50%(Target's Sanity)<br><br>
+                        <span style = "color: rgb(65, 194, 65);">Give Away</span> : Somehow ignores closer players during a Hunt & Scream on Paramic<br><br>
+                        <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> : Prefers Singing Ghost Events <br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : Banshee will pic a random target, and only go for them during a hunt.<br><br>
+                         It will also only check the target's Sanity for the Hunt threshhold.<br><br>
+                        If it's target is outside the Investigation Area, the Banshee will act like a normal ghost.
+                    </p>
                 </div>
                     <div id="Jinn" class = "filterDiv EMF5 Freezing Fingerprints">
-                    <br>
-                    <br>
-                    Jinn
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        Jinn
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : EMF 5, Freezing, Fingerprints<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 50% <br><br>
+                        <span style = "color: rgb(214, 141, 6);">Excluder</span> : Turned off the Breaker (directly) & <br><br>
+                        jumps closer to players in sight <br><br>
+                        <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> : May reduce the Sanity of nearby players by 25% IF the Breaker is on<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : The Jinn's ability to reduce your Sanity, will give an EMF reading at the breaker.
+                    </p>
                 </div>
                 <div id="Mare" class = "filterDiv Orbs SpiritBox Writing">
-                    <br>
-                    <br>
-                    Mare
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        Mare
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : Orbs, Spirit Box, Writing<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : Light Off: 60% & Light On: 40%<br><br>
+                        <span style = "color: rgb(65, 194, 65);">Give Away</span> : Light turns off immediately after being turned on<br><br>
+                        <span style = "color: rgb(214, 141, 6);">Excluder</span> : Turned on a Light<br><br>
+                        <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> : May sometimes turn off a light immediately after a player turns it on<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : Mares will roam further if the light in their room is turned on.<br><br>
+                    </p>
                 </div>
                 <div id="Revenant" class = "filterDiv Orbs Freezing Writing">
-                    <br>
-                    <br>
-                    Revenant
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        Revenant
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : Orbs, Freezing, Writing<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 50%<br><br>
+                        <span style = "color: rgb(65, 194, 65);">Give Away</span> : Hunt & Salt: Slow footsteps<br><br>
+                        <span style = "color: rgb(214, 141, 6);">Excluder</span> : Fast Footsteps<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : 2 Different Hunt Speeds.<br><br>
+                        When it sees a player: GIGA FAST<br><br>
+                        When it sees no player: Really Slow
+
+                    </p>
                 </div>
                 <div id="Shade" class = "filterDiv EMF5 Freezing Writing">
-                    <br>
-                    <br>
-                    Shade
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        Shade
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : EMF 5, Freezing, Writing<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 35%<br><br>
+                        <span style = "color: rgb(214, 141, 6);">Excluder</span> : Hunt starts in the same room as player.<br><br>
+                        <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> : Unable to do Throws, Ghost Events or Hunts when another player is in a room with her &<br><br>
+                        Can Appear as Black Shadow in Summoning Circle<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : Incredibly shy and inactive
+                    </p>
                 </div>
                 <div id="Demon" class = "filterDiv Freezing Fingerprints Writing">
-                    <br>
-                    <br>
-                    Demon
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        Demon
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : Freezing, Fingerprints, Writing<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 70%(100% Ability)<br><br>
+                        <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> : May (regardless of Sanity) walk towards a random player, then initiate a hunt<br><br>
+                        Crucifixes have 5m Radius<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : Somehow all the Crucifixes are gone & smudging them only prevents hunts for 1 Minute.
+                    </p>
                 </div>
                 <div id="Yurei" class = "filterDiv Orbs Freezing DOTS">
-                    <br>
-                    <br>
-                    Yurei
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        Yurei 
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : Orbs, Freezing, DOTS<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 50%<br><br>
+                        <span style = "color: rgb(65, 194, 65);">Give Away</span> : The Yurei Door Close: He will touch a door and a second later close it fully (2 sounds) &<br><br>
+                        Everyone's sanity is oddly low<br><br>
+                        <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> : Ability that reduces the Sanity of nearby players (Door Shut) &<br><br>
+                        More likely to do Mistball Ghost Events<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : When you hear a door touch, with a suspiciously delayed door closing sound<br><br> 
+                        outside of Ghost Events and Hunts. Smudging the ghost will trap it in it's room<br><br>
+                         for the entire Smudge Duration (90s)
+                    </p>
                 </div>
                 <div id="Oni" class = "filterDiv EMF5 Freezing DOTS">
-                    <br>
-                    <br>
-                    Oni
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        Oni
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : EMF 5, Freezing, DOTS<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 50%<br><br>
+                        <span style = "color: rgb(214, 141, 6);">Excluder</span> : Mistball Ghost Event<br><br>
+                        <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> : Flickers less during Hunts & Drains sanity during Ghost Events at twice the speed<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : Flickers less during hunts, is visible longer (opposite of Phantom).<br><br>
+                        Will more often appear in full form during an event. 
+                    </p>
                 </div>
                 <div id="Yokai" class = "filterDiv Orbs SpiritBox DOTS">
-                    <br>
-                    <br>
-                    Yokai
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        Yokai
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : Orbs, Spirit Box, DOTS<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 50% (80% When someone talks close to them.)<br><br>
+                        <span style = "color: rgb(65, 194, 65);">Give Away</span> : Unable to find you during a hunt despite active electric devices<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : During hunts, Yokais cannot hear voices or notice electrical devices unless<br><br>
+                         they are in it's direct vicinity (2-3m).<br><br>
+                        Talking within 2-3m of them may trigger a hunt.
+                    </p>
                 </div>
                 <div id="Hantu" class = "filterDiv Orbs Freezing Fingerprints">
-                    <br>
-                    <br>
-                    Hantu
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        Hantu
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : Orbs, Freezing, Fingerprints<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 50%<br><br>
+                        <span style = "color: rgb(214, 141, 6);">Excluder</span> : No Freezing Temperature Evidence<br><br>
+                        <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> : Has frozen breath when hunting in her own room & cannot turn on breaker<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : Guarantees Freezing Temperatures on Nightmare & Chance to turn off the breaker is doubled
+                    </p>
                 </div>
                 <div id="Goryo" class = "filterDiv EMF5 Fingerprints DOTS">
-                    <br>
-                    <br>
-                    Goryo
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        Goryo
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : EMF 5, Fingerprints, DOTS<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 50%<br><br>
+                        <span style = "color: rgb(214, 141, 6);">Excluder</span> : DOTS seen without a camera & No DOTS Evidence<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : Guarantees DOTS evidence on Nightmare<br><br>
+                        DOTS evidence can only be seen through a camera and outside the Ghost Room<br><br>
+                        Will rarely roam outside the Ghost Room
+                    </p>
                 </div>
                 <div id="Myling" class = "filterDiv EMF5 Fingerprints Writing">
-                    <br>
-                    <br>
-                    Myling
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        Myling
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : EMF 5, Fingerprints, Writing<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 50%<br><br>
+                        <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> : Higher Chance for Singing Ghost Events & Hunt's Footstep Sound range is<br><br>
+                         lower than Flashlight flicker range <br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : Mylings being quieter during hunts refers ONLY to the footstep sound.<br><br>
+                         It is shorter than the Electrics malfunction range. So sit in a hiding space with a flashlight<br><br>
+                          on the ground, if you hear the footsteps (on the same level) before the flashlight goes off, it's a Myling
+                    </p>
                 </div>
                 <div id="Onryo" class = "filterDiv Orbs SpiritBox Freezing">
-                    <br>
-                    <br>
-                    Onryo
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        Onryo
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : Orbs, Spirit Box, Freezing<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 60%<br><br>
+                        <span style = "color: rgb(214, 141, 6);">Excluder</span> : Consumes Crucifixes despite a burning candle on top of them<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : Onryo Test: Place a crucifix and then a candle on top of it. When trying to hunt but a Candle is within 4 meters,<br><br>
+                         the candle will be blown out and the hunt stopped.<br><br>
+                        If it consumes the cross without blowing off the candle, it's not an Onryo
+                    </p>
                 </div>
                 <div id="Twins" class = "filterDiv EMF5 SpiritBox Freezing">
-                    <br>
-                    <br>
-                    The Twins
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        The Twins
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : EMF 5, Spirit Box, Freezing<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 50%<br><br>
+                        <span style = "color: rgb(65, 194, 65);">Give Away</span> : Two different interaction at different rooms.<br><br>
+                        <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> : Both Ghosts can hunt. <br><br>
+                        Main Ghost: 10% LESS speed<br><br> 
+                        Decoy: 10% MORE speed<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : Twinteraction: refers to event where on the Van activity meter there are two different slope angles in one reading.<br><br>
+                        Note if two interactions happen close to each other in time, but in multiple different rooms a single ghost could not reach so quickly.<br><br>
+                    </p>
                 </div>
                 <div id="Raiju" class = "filterDiv EMF5 Orbs DOTS">
-                    <br>
-                    <br>
-                    Raiju
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        Raiju
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : EMF 5, Orbs, DOTS<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 50% (65% when nearby electrical equipment)<br><br>
+                        <span style = "color: rgb(65, 194, 65);">Give Away</span> : During Hunts, Ghost Speed increases and decreases during the hunt (when nearby active electronic devices)<br><br>
+                        <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> : Moves faster around Electrical Equipment<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : When electrical devices (player items) are in it's ghost room, the hunt threshold is increased.<br><br>
+                        During hunts, being near active electric devices (brought by players) will speed the ghost up.<br><br>
+                         Entering and leaving the vicinity of these devices will sound as if the ghost speed changes dynamically.
+                    </p>
                 </div>
                 <div id="Obake" class = "filterDiv EMF5 Orbs Fingerprints">
-                    <br>
-                    <br>
-                    Obake
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        Obake
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : EMF 5, Orbs, Fingerprints<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 50%<br><br>
+                        <span style = "color: rgb(65, 194, 65);">Give Away</span> : Hand prints with 6 fingers or two thumbs on a light switch<br><br>
+                        <span style = "color: rgb(214, 141, 6);">Excluder</span> : No Fingerprints Evidence<br><br>
+                        <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> : Only has a 75% chance to leave Fingerprints for an interaction<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : Guarantees Fingerprints on Nightmare
+                    </p>
                 </div>
                 <div id="Mimic" class = "filterDiv Orbs SpiritBox Freezing Fingerprints">
-                    <br>
-                    <br>
-                    The Mimic
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        The Mimic
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : Orbs, Spirit Box, Freezing, Fingerprints<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : Depends on mimiced Ghost<br><br>
+                        <span style = "color: rgb(65, 194, 65);">Give Away</span> : 3 Evidences on Nightmare, 4 on Professional <br><br>
+                        <span style = "color: rgb(214, 141, 6);">Excluder</span> : No Ghost Orbs Evidence<br><br>
+                        <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> : Can copy the behaviour of every other ghost<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : Always produces Ghost Orb Evidence, no matter what the journal says<br><br>
+                    </p>
                 </div>
                 <div id="Moroi" class = "filterDiv SpiritBox Freezing Writing">
-                    <br>
-                    <br>
-                    Moroi
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        Moroi
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : Spirit Box, Freezing, Writing<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 50%<br><br>
+                        <span style = "color: rgb(65, 194, 65);">Give Away</span> : Curse: Spirit Box or Paramic response will drop your sanity despite using a candle<br><br>
+                        <span style = "color: rgb(214, 141, 6);">Excluder</span> : No Spirit Box Evidence<br><br>
+                        <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> : Hunt speed depends on player sanity when the hunt starts<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : Guarantees Spirit Box Evidence on Nightmare.<br><br>
+                        Being cursed (Spirit Box, Paramic response) will double your sanity drain, while also ignoring the candle protection
+                    </p>
                 </div>
                 <div id="Deogen" class = "filterDiv SpiritBox Writing DOTS">
-                    <br>
-                    <br>
-                    Deogen
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        Deogen
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : Spirit Box, Writing, DOTS<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 40%<br><br>
+                        <span style = "color: rgb(65, 194, 65);">Give Away</span> : GIGA FAST when you are hidden, omega slow when next to him<br><br>
+                        <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> : Using the Spirit Box within 1m of him, will make him respond with a heavy breathing sound<br><br>
+                        (If Spirit Box is an Evidence Type)<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : You CANNOT HIDE from this ghost, you will need to loop or kite it in the open.
+                    </p>
                 </div>
                 <div id="Thaye" class = "filterDiv Orbs Writing DOTS">
-                    <br>
-                    <br>
-                    Thaye
+                    <br><br>
+                    <br><br>
+                    <h2>
+                        Thaye
+                    </h2>
+                    <p>
+                        <span style = "color:rgb(156, 20, 156);">Evidence</span> : Orbs, Writing, DOTS<br><br>
+                        <span style = "color:rgb(255, 41, 41);">Hunt Threshold</span> : 75% - 15%(-6% per aging step)<br><br>
+                        <span style = "color: rgb(214, 141, 6);">Excluder</span> : Low Activity / Slow Hunt Speed early on<br><br>
+                        <span style = "color: rgb(255, 255, 2);">Hidden Ability</span> : Constantly Ages<br><br>
+                        Starts hyperactive and fast, becomes slower and less active over time<br><br>
+                        <span style = "color: rgb(38, 113, 211);">Notes</span> : Every 2 Minutes the ghost attempts to age when you are close, if not the timer will be increased by 30 seconds.<br><br>
+                         Be in the ghost room to make him age.<br><br>
+                    </p>
                 </div>
                 
                 

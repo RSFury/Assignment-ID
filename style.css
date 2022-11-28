@@ -105,10 +105,9 @@ h1{
     background: rgb(49,48,48);
 }
 body {
-    font-family: "Lato", sans-serif;
     margin:0;
     padding:0;
-    font-family: Arial;
+    font-family: Inconsolata;
     background-color: rgb(49,48,48);
 }
 
@@ -320,5 +319,8 @@ padding: 10px;
     height: 2vw;
   }
   h2{
+    font-family: Inconsolata;
+  }
+  p{
     font-family: Inconsolata;
   }
