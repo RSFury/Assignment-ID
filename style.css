@@ -157,6 +157,7 @@ color: #064579;
     background: rgb(73, 72, 72);
     overflow-y: scroll;
     padding: 10px;
+    height: 80%;
     }
     
 .sidenav_maps a {
@@ -330,12 +331,13 @@ padding: 10px;
     width: 13vw;
     position: fixed;
     z-index: 1;
-    top: 4vw;
+    top: 10vw;
     left: 1vw;
     background: rgb(73, 72, 72);
     overflow-y: scroll;
     padding: 10px;
     height: auto;
+    
 }
 
 .sidenav_obj a {
