@@ -75,13 +75,15 @@ a{
     width:100%;
     color:white;
     font-size: 1vw;
-}
+    text-align: center;
+}   
 #Download{
     height:100px;
     display: inline-block;
     width:100%;
     color:white;
     font-size: 1vw;
+    text-align: center;
 }
 h1{
     margin:100px;
@@ -120,7 +122,7 @@ body {
     background: rgb(73, 72, 72);
     overflow-y: scroll;
     padding: 10px;
-    height: 100%;
+    height: 80%;
 }
 
 .sidenav a {
@@ -181,7 +183,7 @@ color: rgb(45, 109, 45);
     background: rgb(73, 72, 72);
     padding: 10px;
     overflow-y:auto;
-    height: 100%;
+    height: 80%;
     }
 .sidenav_ghost::-webkit-scrollbar {
     display: none;
@@ -324,3 +326,30 @@ padding: 10px;
   p{
     font-family: Inconsolata;
   }
+  .sidenav_obj {
+    width: 13vw;
+    position: fixed;
+    z-index: 1;
+    top: 4vw;
+    left: 1vw;
+    background: rgb(73, 72, 72);
+    overflow-y: scroll;
+    padding: 10px;
+    height: auto;
+}
+
+.sidenav_obj a {
+    padding: 4px 8px 6px 16px;
+    font-size: 1vw;
+    width:11vw;
+    color: #ff00b3;
+    display: inline-block;
+    text-align: center;
+}
+.sidenav_obj::-webkit-scrollbar {
+    display: none;
+}
+
+.sidenav_obj a:hover {
+color: #5b095e;
+}
