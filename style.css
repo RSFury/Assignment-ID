@@ -37,13 +37,13 @@ a{
 
 }
 #home{
-    height:830px;
+    height:40vw;
     display: inline-block;
     width:100%;
     color:white;
     background-image: url('Others/PhasmoMain.jpg');
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: 100%; 
 }
 #Equipment{
     height:100px;
@@ -226,18 +226,17 @@ padding: 10px;
     text-align: center;
     font-size: 1vw;
     color: white;
-    height: 700px;
+    height: 1vw;
     
 }
 .description{
     background-color: white;
-    padding: 50px;
-    margin: 20px;
-    
+    padding: 3vw;
+    margin: 2vw;
     height: auto;
     display: inline-block;
     color: black;
-    font-size: 40px;
+    font-size: 2vw;
     font-family: "Lucida Console", "Courier New", monospace;
     width: 70vw;
 
@@ -251,7 +250,7 @@ padding: 10px;
     color: white;
     padding: 12px 30px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 1vw;
     display: inline-block;
     justify-content: center;
     align-items: center;
