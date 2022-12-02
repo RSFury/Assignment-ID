@@ -8,6 +8,10 @@ nature of ghost, how to use equpiment or even just map awareness.
 
 The aim of this guide is to teach people how to play phasmophobia and teach them how each item works.
 
+General Navigation bar is located at the top of every page of the website, it is to nagivate through all the pages created.
+The home page is located at the left as for almost all my past experience using websites with navigation bar, the home button 
+is always isolated witha different font while all the other content pages are grouped together.
+
 The main page index.html is created with a rough description of why the game was created.
 It is created with a download button which redirected the users to the website to buy the game.
 
