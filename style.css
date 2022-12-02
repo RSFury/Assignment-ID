@@ -354,3 +354,6 @@ padding: 10px;
 .sidenav_obj a:hover {
 color: #5b095e;
 }
+#mybuttonContainer{
+    font-size: 1vw;
+}
