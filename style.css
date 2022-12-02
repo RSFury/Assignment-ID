@@ -261,7 +261,6 @@ padding: 10px;
     background-color: RoyalBlue;
  }
 .item{
-    height: 700px;
     color: white;
     text-align: center;
     font-size: 1.3vw;
@@ -269,15 +268,13 @@ padding: 10px;
     margin: auto;
 }
 .Maps{
-    height: 700px;
     color: white;
     text-align: center;
     font-size: 1.3vw;
-    width: 60vw;
+    width: 60%;
     margin: auto;
 }
 .Ghosts{
-    height: 700px;
     color: white;
     text-align: center;
     font-size: 1.3vw;
