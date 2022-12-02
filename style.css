@@ -17,7 +17,7 @@ nav{
     position: fixed;
     top: 0;
     display: inline-block;
-    font-size: 1vw;
+    font-size: 1.3vw;
 }
 li{
     float: right;
@@ -37,7 +37,7 @@ a{
 
 }
 #home{
-    height:40vw;
+    height:30vw;
     display: inline-block;
     width:100%;
     color:white;
@@ -51,7 +51,7 @@ a{
     width:100%;
     color:white;
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.3vw;
     
 }
 #Map{
@@ -59,14 +59,14 @@ a{
     display: inline-block;
     width:100%;
     color:white;
-    font-size: 1vw;
+    font-size: 1.3vw;
 }
 #Ghost{
     height:100px;
     display: inline-block;
     width:100%;
     color:white;
-    font-size: 1vw;
+    font-size: 1.3vw;
     text-align: center;
 }
 #Object{
@@ -74,7 +74,7 @@ a{
     display: inline-block;
     width:100%;
     color:white;
-    font-size: 1vw;
+    font-size: 1.3vw;
     text-align: center;
 }   
 #Download{
@@ -82,7 +82,7 @@ a{
     display: inline-block;
     width:100%;
     color:white;
-    font-size: 1vw;
+    font-size: 1.3vw;
     text-align: center;
 }
 h1{
@@ -109,6 +109,7 @@ h1{
 body {
     margin:0;
     padding:0;
+    
     font-family: Inconsolata;
     background-color: rgb(49,48,48);
 }
@@ -127,7 +128,7 @@ body {
 
 .sidenav a {
     padding: 4px 8px 6px 16px;
-    font-size: 1vw;
+    font-size: 1.3vw;
     width:11vw;
     color: #2196F3;
     display: inline-block;
@@ -162,7 +163,7 @@ color: #064579;
     
 .sidenav_maps a {
 padding: 4px 8px 6px 16px;
-font-size: 1vw;
+font-size: 1.3vw;
 width:11vw;
 color: rgb(75, 231, 75);
 display: inline-block;
@@ -190,7 +191,7 @@ color: rgb(45, 109, 45);
     display: none;
 }
 .sidenav_ghost a {
-font-size: 1vw;
+font-size: 1.3vw;
 width:11vw;
 color: #be6fe2;
 display: inline-block;
@@ -224,15 +225,14 @@ padding: 10px;
 }
 .home-text{
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.3vw;
     color: white;
-    height: 1vw;
     
 }
 .description{
     background-color: white;
     padding: 3vw;
-    margin: 2vw;
+    margin: 1vw;
     height: auto;
     display: inline-block;
     color: black;
@@ -250,7 +250,7 @@ padding: 10px;
     color: white;
     padding: 12px 30px;
     cursor: pointer;
-    font-size: 1vw;
+    font-size: 1.3vw;
     display: inline-block;
     justify-content: center;
     align-items: center;
@@ -264,7 +264,7 @@ padding: 10px;
     height: 700px;
     color: white;
     text-align: center;
-    font-size:1vw;
+    font-size: 1.3vw;
     width: 60vw;
     margin: auto;
 }
@@ -272,7 +272,7 @@ padding: 10px;
     height: 700px;
     color: white;
     text-align: center;
-    font-size:1vw;
+    font-size: 1.3vw;
     width: 60vw;
     margin: auto;
 }
@@ -280,7 +280,7 @@ padding: 10px;
     height: 700px;
     color: white;
     text-align: center;
-    font-size:1vw;
+    font-size: 1.3vw;
     width: 60vw;
     margin: auto;
 }
@@ -341,7 +341,7 @@ padding: 10px;
 
 .sidenav_obj a {
     padding: 4px 8px 6px 16px;
-    font-size: 1vw;
+    font-size: 1.3vw;
     width:11vw;
     color: #ff00b3;
     display: inline-block;
@@ -354,3 +354,18 @@ padding: 10px;
 .sidenav_obj a:hover {
 color: #5b095e;
 }
+
+.footer {
+    position: -webkit-sticky;
+    position:sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: rgb(119, 114, 114);
+    text-align: center;
+ }
+ .ending{
+    height: 4vw;
+    background-color:rgb(119, 114, 114);
+ }
